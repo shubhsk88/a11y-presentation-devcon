@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: bricks
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
@@ -108,7 +108,7 @@ level: 2
 transition: slide-up
 ---
 
-# How do user interact with web
+# How do user interact with web?
 
 <v-clicks>
 <div class="hover-item" >Hover</div>
@@ -168,7 +168,7 @@ depth: 2
 level: 2
 ---
 
-# How do user interact with web
+# How do user interact with web?
 
 <v-clicks>
 <div class="hover-item" >Hover</div>
@@ -308,7 +308,7 @@ A tool that helps to identify and address accessibility issues in UI components
 transition: slide-up
 level: 2
 ---
-# Why Storybook A11y addon
+# Why Storybook A11y addon?
 
 <v-clicks>
 
@@ -330,7 +330,7 @@ url: https://cognitedata.github.io/cogs.js/?path=/story/components-inputexp--bas
 --- 
 level: 2
 ---
-# How to include Accessibility
+# How to include Accessibility?
 
 <v-clicks>
 

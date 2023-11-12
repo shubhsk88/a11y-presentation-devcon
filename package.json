@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.43.15",
+    "@slidev/theme-bricks": "^0.0.2",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-geist": "^0.8.1"
   },
   "devDependencies": {
     "@iconify-json/ri": "^1.1.12"

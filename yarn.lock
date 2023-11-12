@@ -741,6 +741,16 @@
     "@slidev/types" "0.43.15"
     js-yaml "^4.1.0"
 
+"@slidev/theme-bricks@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-bricks/-/theme-bricks-0.0.2.tgz#4045f6a94a6232cd1b8f5ecdfc77e09f81d9d537"
+  integrity sha512-70mc2kdWuo6ZoMJiEdWScs8Ei4bRfoEGDibVQFiHqbdFd2oWmmCyfWOVwc2j6HAiECENXrsmKJfN8Tc0S4kxTQ==
+  dependencies:
+    "@slidev/types" "^0.22.1"
+    codemirror-theme-vars "^0.1.1"
+    prism-theme-vars "^0.2.2"
+    theme-vitesse "^0.1.12"
+
 "@slidev/theme-default@latest":
   version "0.21.2"
   resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.21.2.tgz#28db9f074cd0b17d19ca6ccd1d4c75db7a24b026"
@@ -766,10 +776,15 @@
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.43.15.tgz#4c2bf0c306cfb38d06e4f3758d65d6157c33023f"
   integrity sha512-d8V47Z5ZmyBgL/W7S/UHZJRmExK7o57FlSQlm1780VhrRHxuoTojNLFU15k4+CjQ1WJDVZJoyyDxFKmzdDU/CA==
 
-"@slidev/types@^0.22.7":
+"@slidev/types@^0.22.1", "@slidev/types@^0.22.7":
   version "0.22.7"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.22.7.tgz#abe1c81fedd5db1475428832f65253f95722a6d8"
   integrity sha512-mCVKQbcGTv6d6n9aHpYNp5U04HF+FMbpY083vqpJ6Folc805BB1Am02eubaW0J6nM+dSOu2dDgPY+kIjs75sAQ==
+
+"@slidev/types@^0.28.9":
+  version "0.28.10"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.28.10.tgz#31a6cbe9321b66424206be6cedaff300e80b10d6"
+  integrity sha512-XcJ12giBaeSHxImlYuDfO1XW686kWDq4uoftnPZyIxhNew4FREsbOLY8oG5Nz5qn05qSsnSDQGo55EbantKvfg==
 
 "@szmarczak/http-timer@^5.0.1":
   version "5.0.1"
@@ -3965,6 +3980,15 @@ slash@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+
+slidev-theme-geist@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/slidev-theme-geist/-/slidev-theme-geist-0.8.1.tgz#a5942c83330d8d9e8ccdff134f7301c8e93d9f23"
+  integrity sha512-2DET+H1tvaFQyKYimg+4RlShLLnyOdW40GFfOH8kAJbsI1JOwzDiLv1UjyFO11y9O0/074/YIwArz9xg4Zde5A==
+  dependencies:
+    "@slidev/types" "^0.28.9"
+    codemirror-theme-vars "^0.1.1"
+    prism-theme-vars "^0.2.2"
 
 source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
