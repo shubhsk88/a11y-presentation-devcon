@@ -85,12 +85,24 @@ level: 2
 -  Operable
 -  Understanble
 -  Robust
+
+<!--
+This principle states that users must be able to perceive all essential information on the screen, and it must be conveyed to multiple senses.
+users must be able to operate the digital product's interface. The interface cannot require interaction that a user cannot perform.
+This principle focuses on supporting assistive technologies and ensuring that, as devices and user agents evolve, the digital product remains accessible
+
+Perceivable->Ensuring color is not the only method of conveying meaning.
+OPerable-> Adding keyboard and touchscreen support to all active elements.
+Understandable-> Ensuring error messages are clear and easy to resolve
+Robust-> Testing keyboard-only navigation.
+Testing with different screen reader technologies.
+-->
+
 ---
 layout: two-cols
 level: 2
-
-
 ---
+
 # Type of Disabilities
 
 - Visual Impairments
@@ -103,6 +115,19 @@ level: 2
 <div class="flex justify-center aligns-center ">
 <img src="/groups.png" class="w-xs" />
 </div>
+
+<!--
+B/blindness, low vision, color blindness
+Digital products that do not work with screen reader software, mobile websites/apps without pinch to zoom, complex graphs and charts differentiated by colors alone,
+
+Mobility->Elements that are only designed to work with the use of a mouse.
+
+Hearing-> D/deafness, hard of hearing (HoH), hearing impaired (HI
+Content without transcript
+
+ Down's syndrome, A/autism, ADHD, dyslexia, aphasia.
+Busy interfaces that make it overly complicated to focus on the task at hand, big walls of words with little whitespace, justified text, and small or hard-to-read fonts.
+-->
 
 ---
 transition: slide-up
@@ -225,13 +250,17 @@ transition: slide-up
 - The Fix
 - Accessible behaviour
 
---- 
+---
 level: 2
 transition: slide-up
 layout: center
 ---
 
 # Scenario: Button
+
+<!--
+If we have action to do we should use button, but if we are navigation to somewhere else we use anchor link
+-->
 
 ---
 level: 2
@@ -249,6 +278,9 @@ layout: center
 
 # Scenario: Dynamic Information
 
+<!--
+Example of toast and showing error messages in form and showing form error page
+-->
 
 ---
 level: 2
@@ -257,6 +289,12 @@ layout: center
 ---
 
 # Scenario: Modal and Drawer
+
+<!--
+https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal
+https://explore-a11y.netlify.app/modal
+-->
 
 ---
 level: 2
