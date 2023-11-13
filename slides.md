@@ -1,6 +1,6 @@
----
- theme: bricks
-background: https://source.unsplash.com/collection/94734566/1920x1080
+--- 
+theme: seriph
+background: transparent
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -14,6 +14,7 @@ info: |
 drawings:
   persist: false
 transition: slide-left
+layout: cover
 
 mdc: true
 ---
