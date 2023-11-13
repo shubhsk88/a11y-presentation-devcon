@@ -1,5 +1,5 @@
 ---
-theme: bricks
+ theme: bricks
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
@@ -41,24 +41,26 @@ Frontend Engineer at CDS
 layout: section
 ---
 
-# What is Accessibility?
+# What is Accessibility(A11y)?
 
 Making resources and service usable by everyone
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
 transition: slide-up
 level: 1
 ---
 
 # Why A11y is important?
 
-- We built it for users
-- Search Engine Optimization
-- Compliance and legislation
+<v-clicks>
+
+- We built it for users 
 - Diverse Users
 - Different Disablities
+- Search Engine Optimization
+- Compliance and legislation
+  
+</v-clicks>
   
 
 [^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
@@ -83,7 +85,7 @@ level: 2
 
 - Perceivable
 -  Operable
--  Understanble
+-  Understandable
 -  Robust
 
 <!--
@@ -175,13 +177,14 @@ transition: slide-up
 
 ---
 transition: slide-up
-depth: 2
+level: 2
 ---
 
 # Multiple Way to access web
 
 <v-clicks>
 
+- Keyboard
 - Screen Reader
 - Assistive Technologies
 - Braile
@@ -189,17 +192,25 @@ depth: 2
   
 </v-clicks>
 
+<!--
+Many users with disabilities rely on keyboard navigation instead of a mouse. When navigating through interactive elements on a webpage using the Tab key, a visible focus indicator helps them understand which element is currently in focus.
+
+Visible focus indicators not only benefit users with disabilities but also improve the overall usability for all users. They provide a visual cue about the user's location and help in navigating the interface efficiently.
+-->
+
 ---
 level: 2
 ---
 
 # How do user interact with web?
 
-<v-clicks>
+
 <div class="hover-item" >Hover</div>
 <div class="click-item" >Click</div>
 <div class="type-item" >Type</div>
 <div class="scroll-item" >Scroll</div> 
+
+<v-clicks>
 <div class="tab-item absolute bottom-40 right-60">Tab</div>
 <div class="escape-item absolute top-40 right-50">Escape</div>
 <div class="arrow-item absolute top-80 left-50">Arrow keys</div>
