@@ -32,11 +32,7 @@ Frontend Engineer at CDS
 </v-click>
 
 
----
 
-# Table of contents
-
-<Toc maxDepth="1"></Toc>
 
 ---
 layout: section
@@ -139,42 +135,15 @@ transition: slide-up
 # How do user interact with web?
 
 <v-clicks>
-<div class="hover-item" >Hover</div>
-<div class="click-item" >Click</div>
-<div class="type-item" >Type</div>
-<div class="scroll-item" >Scroll</div> 
+
+
+- Hover
+- Click
+- Type
+- Scroll
 
 </v-clicks>
 
-<style>
-.hover-item{
-  position:absolute;
-  top:30rem;
-  left:10rem; 
-}
-.click-item{
- position:absolute;
- top:10rem;
- left:40rem;
-}
-.type-item{
-  position:absolute;
-  top:20rem;
-  right:30rem;
-}
-.scroll-item{
-  position:absolute;
-  bottom:50px;
-  right:30rem;
-}
-.tab-item{
-  position:absolute;
-  top:70px;
-  left:40vw;
-
-}
-
-  </style>
 
 ---
 transition: slide-up
@@ -188,7 +157,6 @@ level: 2
 - Keyboard
 - Screen Reader
 - Assistive Technologies
-- Braile
 - Switch, etc
   
 </v-clicks>
@@ -206,59 +174,29 @@ level: 2
 # How do user interact with web?
 
 
-<div class="hover-item" >Hover</div>
-<div class="click-item" >Click</div>
-<div class="type-item" >Type</div>
-<div class="scroll-item" >Scroll</div> 
+- Hover
+- Click
+- Type
+- Scroll
+
 
 <v-clicks>
-<div class="tab-item absolute bottom-40 right-60">Tab</div>
-<div class="escape-item absolute top-40 right-50">Escape</div>
-<div class="arrow-item absolute top-80 left-50">Arrow keys</div>
+
+- Tab
+- Escape
+- Arrow keys
+  
 </v-clicks>
 
-<style>
-.hover-item{
-  position:absolute;
-  top:30rem;
-  left:10rem; 
-}
-.click-item{
- position:absolute;
- top:10rem;
- left:40rem;
-}
-.type-item{
-  position:absolute;
-  top:20rem;
-  right:30rem;
-}
-.scroll-item{
-  position:absolute;
-  bottom:50px;
-  right:30rem;
-}
-.type-item{
-  position:absolute;
-  top:20rem;
-  right:30rem;
-}
-.scroll-item{
-  position:absolute;
-  bottom:50px;
-  right:30rem;
-}
 
-
-  </style>
 
 ---
 level: 2
 transition: slide-up
 ---
-# Format
+# Use Cases
 
-- InAccessible Scenario
+- Inaccessible Scenario
 - The Fix
 - Accessible behaviour
 
@@ -284,19 +222,9 @@ transition: slide-up
 
 <!--
 https://webaim.org/projects/million/
--->
-
----
-level: 2
-transition: slide-up
-layout: center
----
-
-# Scenario: Dynamic Information
-
-<!--
 Example of toast and showing error messages in form and showing form error page
 -->
+
 
 ---
 level: 2
@@ -326,14 +254,6 @@ transition: slide-up
 level: 2
 ---
 <img src="/slack-message.png"/> 
-
----
-level: 2
----
-
-# Google Use case
-
- <img src="/google-usecase.png"/>
 
 
 ---
@@ -370,7 +290,7 @@ level: 2
 2. Part of golden path
 3. Effective Feedback
 4. Flexibility
-5. Color Blindness
+5. Color Blindness Emulator
    
 </v-clicks>
 
@@ -378,7 +298,7 @@ level: 2
 layout: iframe
 level: 2
 transition: slide-up
-url: https://cognitedata.github.io/cogs.js/?path=/story/components-inputexp--base
+url: https://cognitedata.github.io/cogs.js/?path=/story/components-button--base
 ---
 
 --- 
@@ -391,7 +311,6 @@ level: 2
 - Integrate the add-on
 - Configure the rule in storybook config
 - Write all possible stories
-- Write all possible interaction tests
 
 </v-clicks>
    
