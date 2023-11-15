@@ -14,6 +14,7 @@ info: |
 drawings:
   persist: false
 transition: slide-left
+colorSchema: light
 layout: cover
 
 mdc: true
